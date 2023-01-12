@@ -1,11 +1,17 @@
 nav.plan {
     color:#FF764E;
+    background-color:#FF764E;
 }
 
 nav.learn {
     color:#5ED3EB;
+    background-color:#5ED3EB;
 }
 
 nav.volunteer {
-    color:#FFCD69;
+    background-color:#FFCD69;
+}
+
+h1 {
+    font-family: 'Chelsea Market';
 }
