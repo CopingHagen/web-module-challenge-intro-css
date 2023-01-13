@@ -49,7 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
     max-width: 100%;
 }
 
@@ -58,45 +58,46 @@ html {
 }
 
 body {
-    font-size: 3rem;
-    line-height: 1.5;
+    font-size: 2.4rem;
+    line-height: 1;
     font-family: 'Roboto Mono', monospace;
 }
 
 h1 {
     font-family: 'Chelsea Market', cursive;
-    font-size: 7rem;
+    font-size: 7.7rem;
+    padding-bottom: 5%;
 }
 
 section {
-    padding: 4% 0;
-    width: 90%;
+    padding: 1.5% 0;
+    width: 85%;
     margin: 0 auto;
 }
 
 nav {
-    padding: .5% 0;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding: 2% 0;
+    padding-left: 1%;
+    padding-right: 1%;
 }
 nav a {
     display:inline-block;
-    padding: .2% 0;
-    width: 9%;
+    padding: .7% 0;
+    width: 12%;
     text-align: center;
-    border-radius: 20px;
+    border-radius: 30px;
     color: #fff;
     text-decoration: none;
 }
 
 .orange {
     background-color: #FF764E;
-    margin-left: 10%;
+    margin-left: 15%;
 }
 
 .blue {
     background-color: #5ED3EB;
-    margin:0 24%;
+    margin:0 15%;
 }
 
 .yellow {
@@ -105,6 +106,8 @@ nav a {
 }
 .cta {
     position: relative;
+    text-align: unset;
+    padding-top: 2%;
 }
 
 .text, .image {
@@ -112,7 +115,8 @@ nav a {
 }
 
 .image {
-    width: 19%;
+    width: 25%;
+    padding-left: 3%;
 }
 
 .round {
@@ -121,15 +125,15 @@ nav a {
 
 .text {
     width: 55%;
-    margin-left: 5%;
+    margin-left: 8%;
     text-align: center;
+    position:absolute;
+    padding-top: 4%;
 
-    position: absolute;
-    top: 130px;
 }
 .text p {
     width: 60%;
-    margin-left: 25%;
+    margin-left: 18%;
     text-align: center;
     line-height: 1;
 }
@@ -138,6 +142,8 @@ nav a {
     background-color: #DDB9A3;
     color: #fff;
     padding: 1%;
+    padding-left: 3%;
+    text-align: center;
 }
 
 .campfire {
