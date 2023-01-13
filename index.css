@@ -49,23 +49,23 @@ table {
 
 * {
     box-sizing: border-box;
-    /* border: 1px solid grey; */
+    border: 1px solid grey;
     max-width: 100%;
 }
 
 html {
-    font-size: 62.5%;
+    font-size: 70.5%;
 }
 
 body {
-    font-size: 1.6rem;
+    font-size: 3rem;
     line-height: 1.5;
     font-family: 'Roboto Mono', monospace;
 }
 
 h1 {
     font-family: 'Chelsea Market', cursive;
-    font-size: 6rem;
+    font-size: 7rem;
 }
 
 section {
@@ -75,14 +75,16 @@ section {
 }
 
 nav {
-    padding: 2% 0;
+    padding: .5% 0;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 nav a {
     display:inline-block;
-    padding: 1% 0;
-    width: 10%;
+    padding: .2% 0;
+    width: 9%;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 20px;
     color: #fff;
     text-decoration: none;
 }
@@ -110,7 +112,7 @@ nav a {
 }
 
 .image {
-    width: 30%;
+    width: 19%;
 }
 
 .round {
@@ -121,22 +123,39 @@ nav a {
     width: 55%;
     margin-left: 5%;
     text-align: center;
-    line-height: 3;
+
     position: absolute;
-    top: 150px;
+    top: 130px;
+}
+.text p {
+    width: 60%;
+    margin-left: 25%;
+    text-align: center;
+    line-height: 1;
 }
 
 .main {
     background-color: #DDB9A3;
     color: #fff;
-    padding: 2%;
+    padding: 1%;
 }
 
-.info div {
+.campfire {
     width:30%;
     margin: 5% auto;
 }
 
+.camper {
+    width:30%;
+    margin: 5% auto;
+}
+
+.camper-img {
+    width: 600px;
+    height: 464px;
+    padding-left: 70px;
+    padding-right: 60px;
+}
 .bold {
     font-weight: bold;
 }
