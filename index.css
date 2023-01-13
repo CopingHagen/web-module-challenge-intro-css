@@ -147,13 +147,22 @@ nav a {
 }
 
 .campfire {
-    width:30%;
-    margin: 5% auto;
+    width: 20%;
+    margin: auto;
+    font-size: 70%;
+    text-align: center;
 }
 
+.campfire-img {
+    width: 400px;
+    height: 240px;
+    object-fit: cover;
+}
 .camper {
-    width:30%;
-    margin: 5% auto;
+    width: 20%;
+    margin: auto;
+    font-size: 70%;
+    text-align: center;
 }
 
 .camper-img {
@@ -168,10 +177,10 @@ nav a {
 
 .bg-img {
     background-image: url('assets/footer_img.jpg');
-    height: 50vh;
+    height: 30vh;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top center;
+    background-size:cover;
+    background-position: 50% 25%;
     width: 100%;
 }
 
